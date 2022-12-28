@@ -40,7 +40,7 @@ pixel_data = {
     "quantity": input("How many kilometers did you cycle today? ")
 }
 
-# POST HTTP REQUEST
+# -----------POST HTTP REQUEST---------------
 # response = requests.post(url=pixel_creation_endpoint, json=pixel_data, headers=header)
 # print(response.text)
 
@@ -50,12 +50,12 @@ new_pixel_data = {
     "quantity": input("How many kilometers did you cycle today? ")
 }
 
-# UPDATE HTTP REQUEST
+# -----------UPDATE HTTP REQUEST---------
 # response = requests.put(url=update_endpoint, json=new_pixel_data, headers=header)
 # print(response.text)
 # print(response.status_code)
 
-# DELETE HTTP REQUEST
+# ------- DELETE HTTP REQUEST------------
 delete_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/{datetime.now().strftime('%Y%m%d')}"
 # response = requests.delete(url=delete_endpoint,headers=header)
 # print(response.status_code)
