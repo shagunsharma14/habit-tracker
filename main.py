@@ -29,7 +29,7 @@ header = {
     "X-USER-TOKEN": TOKEN
 }
 
-# GRAPH CREATION
+# -----------GRAPH CREATION---------------
 # response = requests.post(url=graph_endpoint, json=graph_config, headers=header)
 # print(response.text)
 # print(response.status_code)
@@ -56,6 +56,6 @@ new_pixel_data = {
 # print(response.status_code)
 
 # ------- DELETE HTTP REQUEST------------
-delete_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/{datetime.now().strftime('%Y%m%d')}"
+# delete_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/{datetime.now().strftime('%Y%m%d')}"
 # response = requests.delete(url=delete_endpoint,headers=header)
 # print(response.status_code)
