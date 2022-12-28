@@ -47,7 +47,7 @@ pixel_data = {
 
 update_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/{datetime.now().strftime('%Y%m%d')}"
 new_pixel_data = {
-    "quantity": input("How many kilometers did you cycle today?")
+    "quantity": input("How many kilometers did you cycle today? ")
 }
 
 # -----------UPDATE HTTP REQUEST---------
