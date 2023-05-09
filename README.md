@@ -56,7 +56,7 @@ The Habit Tracker project was inspired by the importance of building and maintai
 
 ## Screenshots
 
-![Screenshot1](Screenshot1.png)
-![Screenshot2](Screenshot2.png)
+![Screenshot1](screenshots/Screenshot1.png)
+![Screenshot2](screenshots/Screenshot2.png)
 
 Feel free to modify and enhance this README file to suit your project's specific needs.
