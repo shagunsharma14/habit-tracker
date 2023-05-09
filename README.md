@@ -15,7 +15,7 @@ The Habit Tracker project is a Python program that allows you to track and monit
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/habit-tracker.git
+   git clone https://github.com/BloodShoT14/habit-tracker.git
    ```
 
 2. Navigate to the project directory:
